@@ -192,7 +192,7 @@ const menuItems = ref([
   { name: 'Features', path: '/features', icon: 'fas fa-star' },
   { name: 'About', path: '/about', icon: 'fas fa-info-circle' },
   { name: 'Contact', path: '/contact', icon: 'fas fa-envelope' }, // ✅ This will work now
-  { name: 'Pricing', path: '/pricing', icon: 'fas fa-tag' }
+  { name: 'Pricing', path: '/privacypolicy', icon: 'fas fa-tag' }
 ])
 
 // Touch handling for hamburger menu

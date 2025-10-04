@@ -139,7 +139,7 @@
           <div class="space-y-2 sm:space-y-3 text-center sm:text-left">
             <div class="flex items-center justify-center sm:justify-start text-xs sm:text-sm text-gray-400">
               <i class="fas fa-envelope text-blue-400 w-4 sm:w-5 mr-2 sm:mr-3"></i>
-              <a href="mailto:technicalyusuf.yt@gmail.com" class="hover:text-blue-400 transition-colors truncate">
+              <a href="mailto:technicalyusuf.yt@gmail.com" class="hover:text-blue-400 transition-colors ">
                 technicalyusuf.yt@gmail.com
               </a>
             </div>
@@ -152,14 +152,14 @@
       </div>
 
       <!-- Team Section - Responsive layout -->
-      <div class="border-t border-gray-700/50 pt-1 sm:pt-10 lg:pt-12 mb-8 sm:mb-10 lg:mb-12">
+      <!-- <div class="border-t border-gray-700/50 pt-1 sm:pt-10 lg:pt-12 mb-8 sm:mb-10 lg:mb-12">
         <h3 class="text-lg sm:text-xl font-semibold text-white mb-6 sm:mb-8 text-center">
           <i class="fas fa-users text-blue-400 mr-2"></i>
           Meet Our Team
         </h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"> -->
           <!-- Team Members -->
-          <div v-for="member in teamMembers" :key="member.name" class="text-center group">
+          <!-- <div v-for="member in teamMembers" :key="member.name" class="text-center group">
             <div class="relative mb-3 sm:mb-4 inline-block">
               <div class="w-16 sm:w-18 lg:w-20 h-16 sm:h-18 lg:h-20 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full flex items-center justify-center text-lg sm:text-xl lg:text-2xl font-bold text-white mx-auto transform transition-transform duration-300 group-hover:scale-110">
                 {{ member.initials }}
@@ -167,10 +167,10 @@
               <div class="absolute -bottom-1 sm:-bottom-2 -right-1 sm:-right-2 w-4 sm:w-5 lg:w-6 h-4 sm:h-5 lg:h-6 bg-green-400 rounded-full border-2 border-gray-900"></div>
             </div>
             <h4 class="text-white font-semibold mb-1 sm:mb-2 text-sm sm:text-base">{{ member.name }}</h4>
-            <p class="text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">{{ member.role }}</p>
+            <p class="text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">{{ member.role }}</p> -->
             
             <!-- Social Links -->
-            <div class="flex justify-center gap-2 sm:gap-3">
+            <!-- <div class="flex justify-center gap-2 sm:gap-3">
               <a :href="member.github" target="_blank" 
                  class="w-7 sm:w-8 h-7 sm:h-8 bg-white/10 rounded-full flex items-center justify-center hover:bg-gray-600 transition-all duration-300 group-hover:text-blue-400"
                  :aria-label="`${member.name} GitHub`">
@@ -189,7 +189,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Bottom Section -->
       <div class="border-t border-gray-700/50 pt-6 sm:pt-8">
@@ -206,11 +206,9 @@
 
           <!-- Legal Links - Responsive wrapping -->
           <div class="flex flex-wrap justify-center gap-3 sm:gap-4 lg:gap-6 text-xs sm:text-sm order-1 lg:order-2">
-            <a href="/privacy" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Privacy</a>
-            <a href="/terms" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Terms</a>
-            <a href="/cookies" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Cookies</a>
-            <a href="/sitemap" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Sitemap</a>
-          </div>
+            <a href="/privacypolicy" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Privacy</a>
+            <a href="/termsconditions" class="text-gray-400 hover:text-blue-400 transition-colors whitespace-nowrap">Terms</a>
+            </div>
         </div>
       </div>
     </div>

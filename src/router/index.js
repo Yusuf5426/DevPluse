@@ -3,6 +3,10 @@ import Home from '@/views/Home.vue'
 import Join from '@/views/Join.vue'
 import Contact from '@/views/Contact.vue'
 import NotFound from '@/views/NotFound.vue'
+import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
+import TermsConditions from '@/views/TermsConditions.vue'
+
+
 
 
 const routes = [
@@ -20,6 +24,16 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/privacypolicy',
+    name: 'Privacypolicy',
+    component: PrivacyPolicy
+  },
+  {
+    path: '/termsconditions',
+    name: 'Termsconditions',
+    component: TermsConditions
   },
 
   {
