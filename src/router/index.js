@@ -5,6 +5,8 @@ import Contact from '@/views/Contact.vue'
 import NotFound from '@/views/NotFound.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import TermsConditions from '@/views/TermsConditions.vue'
+import About from '@/views/About.vue'
+import Pricing from '@/views/Pricing.vue'
 
 
 
@@ -35,7 +37,16 @@ const routes = [
     name: 'Termsconditions',
     component: TermsConditions
   },
-
+  {
+    path: '/about',
+    name: 'About',
+    component: About
+  },
+  {
+    path: '/pricing',
+    name: 'Pricing',
+    component: Pricing 
+  },
   {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',

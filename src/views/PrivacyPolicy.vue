@@ -75,7 +75,7 @@
           <p>
             You have full control over your data. You can request access, correction, or deletion of your personal information 
             anytime by contacting our support team at 
-            <a href="mailto:support@raisonconsultancy.com" class="text-blue-600 hover:underline">support@raisonconsultancy.com</a>.
+            <a href="mailto:technicalyusuf.pc@gmail.com" class="text-blue-600 hover:underline">technicalyusuf.pc@gmail.com</a>.
           </p>
         </section>
 
@@ -110,8 +110,8 @@
             For any privacy-related questions or concerns, please reach out to us at:
           </p>
           <div class="bg-gray-50 border border-gray-200 rounded-lg p-4 mt-3">
-            <p><strong>Raison Consultancy Services Pvt. Ltd.</strong></p>
-            <p>Email: <a href="mailto:privacy@raisonconsultancy.com" class="text-blue-600 hover:underline">privacy@raisonconsultancy.com</a></p>
+            <p><strong>DevPluse</strong></p>
+            <p>Email: <a href="mailto: technicalyusuf.pc@gmail.com" class="text-blue-600 hover:underline">technicalyusuf.pc@gmail.com</a></p>
             <p>Address: Lucknow, Uttar Pradesh, India</p>
           </div>
         </section>
